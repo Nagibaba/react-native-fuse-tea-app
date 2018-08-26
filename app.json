@@ -1,0 +1,20 @@
+{
+  "expo": {
+	"name": "Fuse tea app",
+	"icon": "./assets/img/Fuse-Tea-Logo.png",
+	"splash": {
+		"image": "./assets/img/fusetea-logo-big.png",
+		"backgroundColor": "#b3cb23",
+		"resizeMode": "contain"
+	},
+	"orientation": "landscape",
+	"version": "1.0.0",
+	"slug": "fusetea-app",
+	"sdkVersion": "27.0.0",
+	"android": {
+		"package": "com.nagibaba.fusetea"
+	},
+  }
+  
+
+}
