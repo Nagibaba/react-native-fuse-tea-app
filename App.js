@@ -110,7 +110,7 @@ export default class App extends React.Component {
         users_table.push(user)
         NetInfo.isConnected.fetch().then(isConnected => {
           if(isConnected){
-            const url = 'http://fuse.smartgroup.az/add.php?token=nagibabaisthebest1'
+            const url = 'http://fuse.smartgroup.az/token=token'///////
             fetch(url, {
               method: 'POST', // or 'PUT'
               body: JSON.stringify(users_table), // data can be `string` or {object}!
